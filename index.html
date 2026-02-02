@@ -30,7 +30,30 @@
   <body>
     <header>
       <div class="top-header">
-        <h1 class="name">Nina Carducci, photographe professionnelle à Paris</h1>
+        <div itemscope itemtype="https://schema.org/Photographer">
+          <h1 itemprop="name">Nina Carducci</h1>
+
+          <p itemprop="description">
+            Photographe portraits et événementiel à Bordeaux
+          </p>
+
+          <p>
+            📍
+            <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>,
+            <span itemprop="postalCode">33200</span>
+            <span itemprop="addressLocality">Bordeaux</span>
+          </p>
+
+          <p>📞 <span itemprop="telephone">05 56 67 78 89</span></p>
+
+          <p>
+            ⏰
+            <time itemprop="openingHours" datetime="Mo-Fr 10:00-19:00">
+              Du lundi au vendredi, de 10h à 19h
+            </time>
+          </p>
+        </div>
+
         <div class="nav">
           <ul>
             <li><a href="#about">À propos</a></li>
@@ -152,7 +175,7 @@
       <div id="gallery">
         <h2 class="title">Portfolio</h2>
         <div class="container py-3">
-          <div class="gallery" style="display: none">
+          <div class="gallery">
             <img
               data-gallery-tag="Concert"
               class="gallery-item"
