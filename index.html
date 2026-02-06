@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <title>Nina Carducci – Photographe professionnelle à Paris</title>
+    <title>Nina Carducci – Photographe professionnelle à Bordeaux</title>
     <meta
       name="description"
       content="Photographe professionnelle spécialisée en portraits, mariages et événements à Paris et en Île-de-France."
@@ -26,23 +26,61 @@
     ></script>
     <script src="./assets/maugallery.js" defer></script>
     <script src="./assets/scripts.js" defer></script>
+    <!-- OpenGraph / Facebook & LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Nina Carducci – Photographe portraits & événementiel à Bordeaux"
+    />
+    <meta
+      property="og:description"
+      content="Photographe spécialisée en portraits et événementiel à Bordeaux. Découvrez mon portfolio et mes services."
+    />
+    <meta property="og:url" content="https://www.ninacarducci.fr/" />
+    <meta
+      property="og:image"
+      content="https://www.ninacarducci.fr/assets/images/og-image.jpg"
+    />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Nina Carducci Photographie" />
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Nina Carducci – Photographe portraits & événementiel à Bordeaux"
+    />
+    <meta
+      name="twitter:description"
+      content="Photographe spécialisée en portraits et événementiel à Bordeaux. Découvrez mon portfolio et mes services."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.tonsite.com/images/portfolio-01.jpg"
+    />
+    <meta name="twitter:site" content="@tonpseudoTwitter" />
+    <meta name="twitter:creator" content="@tonpseudoTwitter" />
   </head>
   <body>
     <header>
       <div class="top-header">
-        <div itemscope itemtype="https://schema.org/Photographer">
+        <div itemscope itemtype="https://schema.org/LocalBusiness">
           <h1 itemprop="name">Nina Carducci</h1>
-
+          <meta
+            itemprop="additionalType"
+            content="https://schema.org/Photographer"
+          />
           <p itemprop="description">
             Photographe portraits et événementiel à Bordeaux
           </p>
-
-          <p>
-            📍
+          <div
+            itemprop="address"
+            itemscope
+            itemtype="https://schema.org/PostalAddress"
+          >
             <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>,
             <span itemprop="postalCode">33200</span>
             <span itemprop="addressLocality">Bordeaux</span>
-          </p>
+          </div>
 
           <p>📞 <span itemprop="telephone">05 56 67 78 89</span></p>
 
@@ -53,7 +91,6 @@
             </time>
           </p>
         </div>
-
         <div class="nav">
           <ul>
             <li><a href="#about">À propos</a></li>
@@ -179,7 +216,7 @@
             <img
               data-gallery-tag="Concert"
               class="gallery-item"
-              src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
+              src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg"
               alt="Photo d'une salle de concert"
             />
             <img
@@ -191,7 +228,7 @@
             <img
               data-gallery-tag="Entreprises"
               class="gallery-item"
-              src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"
+              src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg"
               alt="Photo d'une réunion de travail"
             />
             <img
@@ -203,7 +240,7 @@
             <img
               data-gallery-tag="Portrait"
               class="gallery-item"
-              src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
+              src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg"
               alt="Photo d'un homme qui ferme les yeux"
             />
             <img
